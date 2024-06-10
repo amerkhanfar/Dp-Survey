@@ -42,7 +42,7 @@ const page = () => {
       );
 
       console.log("success");
-      localStorage.removeItem("formData");
+
       setStep(step + 1);
     } catch {
       console.error("Error submitting form");

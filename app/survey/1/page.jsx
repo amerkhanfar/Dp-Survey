@@ -5,7 +5,7 @@ import { PilatDemi, PilatLight, PilatWide } from "../../../fonts/fonts";
 import axios from "axios";
 
 const page = () => {
-  const [step, setStep] = useState(3);
+  const [step, setStep] = useState(1);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [region, setRegion] = useState("");

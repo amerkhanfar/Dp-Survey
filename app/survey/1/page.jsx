@@ -97,7 +97,7 @@ const page = () => {
             return (
               <ContentContainer
                 style={{
-                  justifyContent: "flex-start",
+                  justifyContent: "center",
                   alignSelf: "flex-start",
                 }}>
                 <LogoContainer>
@@ -1985,11 +1985,13 @@ const ColorContainer = styled.div`
 
 const ContentContainer = styled.div`
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+
+  align-self: "flex-start";
   gap: 50px;
   z-index: 50;
 `;

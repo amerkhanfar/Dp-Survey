@@ -5,7 +5,7 @@ import { PilatDemi, PilatLight, PilatWide } from "../../../fonts/fonts";
 import axios from "axios";
 
 const page = () => {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(3);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [region, setRegion] = useState("");
@@ -1990,8 +1990,7 @@ const ContentContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
-  align-self: "flex-start";
+  align-self: "center";
   gap: 50px;
   z-index: 50;
 `;
@@ -2043,7 +2042,7 @@ const FormContainer = styled.div`
   text-align: center;
   gap: 15px;
   height: auto;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 `;
 
 const TextContainer = styled.div`

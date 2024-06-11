@@ -114,7 +114,8 @@ const Continer = styled.div`
   overflow-x: scroll;
   margin: 0 auto;
   min-height: 100vh;
-  background-color: #35224c;
+  font-size: 11px;
+  background-color: #27224e;
 
   @media (max-width: 500px) {
     width: 100vw;

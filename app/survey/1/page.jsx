@@ -96,7 +96,10 @@ const page = () => {
           case 1:
             return (
               <ContentContainer
-                style={{ justifyContent: "center", alignSelf: "flex-start" }}>
+                style={{
+                  justifyContent: "flex-start",
+                  alignSelf: "flex-start",
+                }}>
                 <LogoContainer>
                   <LogoSub>
                     <img src='/Logo.png' width={140} />
@@ -110,6 +113,7 @@ const page = () => {
                       textAlign: "center",
                       lineHeight: "27px",
                       fontSize: "20px",
+                      marginLeft: "0px",
                     }}>
                     Dear participants, thank you for participating in our
                     Principles survey.
@@ -2035,8 +2039,9 @@ const FormContainer = styled.div`
   width: 100%;
   align-items: center;
   text-align: center;
-  gap: 20px;
+  gap: 15px;
   height: auto;
+  padding-bottom: 200px;
 `;
 
 const TextContainer = styled.div`
@@ -2125,7 +2130,7 @@ const NextButton = styled.button`
 const Counter = styled.div`
   position: absolute;
   left: 0;
-  top: 250px;
+  top: 200px;
   color: white;
 `;
 

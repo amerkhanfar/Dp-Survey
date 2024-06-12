@@ -28,6 +28,7 @@ const page = () => {
   const [question14, setQuestion14] = useState("");
   const [question15, setQuestion15] = useState("");
   const [selectedOption, setSelectedOption] = useState("");
+  const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
   const renderOtherDepartmentInput = () => {
     if (department === "Other") {
@@ -55,6 +56,7 @@ const page = () => {
   async function FormSubmit(event) {
     console.log("amer");
     event.preventDefault();
+    setIsButtonDisabled(true);
 
     try {
       await axios.post(
@@ -107,7 +109,7 @@ const page = () => {
   const isQuestion12Complete = !question12;
   const isQuestion13Complete = !question13;
   const isQuestion14Complete = !question14;
-  const isQuestion15Complete = !question15;
+  const isQuestion15Complete = !question15 || isButtonDisabled;
 
   return (
     <Container>
@@ -2165,7 +2167,7 @@ const page = () => {
                         {step - 2}/15
                       </div>
                       <NextButton
-                        disabled={!question15}
+                        disabled={isQuestion15Complete}
                         className={PilatDemi.className}
                         style={{ marginTop: "20px" }}
                         onClick={FormSubmit}>

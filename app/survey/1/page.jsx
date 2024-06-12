@@ -285,6 +285,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#27224e" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -413,6 +414,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#27224e" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -541,6 +543,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#27224e" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -670,6 +673,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -797,6 +801,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -925,6 +930,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1054,6 +1060,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#384595" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1181,6 +1188,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#384595" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1309,6 +1317,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#384595" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1438,6 +1447,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1564,6 +1574,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1691,6 +1702,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1817,6 +1829,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: " #e73264" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -1942,6 +1955,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: " #e73264" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{
@@ -2068,6 +2082,7 @@ const page = () => {
             return (
               <ColorContainer style={{ backgroundColor: " #e73264" }}>
                 <Branding style={{ zIndex: 1 }} />
+                <Branding1 style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
                   style={{

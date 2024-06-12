@@ -11,6 +11,7 @@ const page = () => {
   const [region, setRegion] = useState("");
   const [department, setDepartment] = useState("");
   const [level, setLevel] = useState("");
+  const [otherDepartment, setOtherDepartment] = useState("");
   const [question1, setQuestion1] = useState("");
   const [question2, setQuestion2] = useState("");
   const [question3, setQuestion3] = useState("");
@@ -28,6 +29,27 @@ const page = () => {
   const [question15, setQuestion15] = useState("");
   const [selectedOption, setSelectedOption] = useState("");
 
+  const renderOtherDepartmentInput = () => {
+    if (department === "Others (precise)") {
+      return (
+        <div>
+          <Text
+            className={PilatDemi.className}
+            style={{ color: "white", marginLeft: "14px" }}>
+            Please specify Other Department:
+          </Text>
+          <Input
+            type='text'
+            value={otherDepartment}
+            name='OtherDepartment'
+            onChange={(e) => setOtherDepartment(e.target.value)}
+          />
+        </div>
+      );
+    }
+    return null;
+  };
+
   const nextStep = () => setStep(step + 1);
   const prevStep = () => setStep(step - 1);
   async function FormSubmit(event) {
@@ -42,6 +64,7 @@ const page = () => {
           lastName,
           region,
           department,
+          otherDepartment,
           level,
           question1,
           question2,
@@ -141,7 +164,7 @@ const page = () => {
               <ContentContainer>
                 <LogoContainer>
                   <LogoSub>
-                    <img src='/Logo.png' width={140} />
+                    <img src='/Logo.png' width={140} alt='Logo' />
                   </LogoSub>
                 </LogoContainer>
                 <FormContainer>
@@ -155,9 +178,7 @@ const page = () => {
                       type='text'
                       value={firstName}
                       name='FirstName'
-                      onChange={(e) => {
-                        setFirstName(e.target.value);
-                      }}
+                      onChange={(e) => setFirstName(e.target.value)}
                     />
                   </div>
                   <div>
@@ -170,9 +191,7 @@ const page = () => {
                       type='text'
                       value={lastName}
                       name='LastName'
-                      onChange={(e) => {
-                        setLastName(e.target.value);
-                      }}
+                      onChange={(e) => setLastName(e.target.value)}
                     />
                   </div>
 
@@ -219,9 +238,11 @@ const page = () => {
                         Contract Logistics
                       </option>
                       <option value='Functions'>Functions</option>
-                      <option value='Others (precise)'>Others</option>
+                      <option value='Others (precise)'>Others (precise)</option>
                     </Select>
                   </div>
+
+                  {renderOtherDepartmentInput()}
 
                   <div>
                     <Text
@@ -259,6 +280,7 @@ const page = () => {
                 </FormContainer>
               </ContentContainer>
             );
+
           case 3:
             return (
               <ColorContainer style={{ backgroundColor: "#27224e" }}>

@@ -23,6 +23,7 @@ export default function DemoPage() {
           department: item.department,
           region: item.region,
           level: item.level,
+          other: item.otherDepartment,
           question1: item.question1,
           question2: item.question2,
           question3: item.question3,
@@ -65,6 +66,7 @@ export default function DemoPage() {
           <Th>Last Name</Th>
           <Th>Region</Th>
           <Th>Department</Th>
+          <Th>Other Department</Th>
           <Th>Level</Th>
           <Th>Q1.1</Th>
           <Th>Q1.2</Th>
@@ -89,8 +91,10 @@ export default function DemoPage() {
 
               <Td>{item.firstName}</Td>
               <Td>{item.lastName}</Td>
-              <Td>{item.department}</Td>
               <Td>{item.region}</Td>
+              <Td>{item.department}</Td>
+              <Td>{item.other}</Td>
+
               <Td>{item.level}</Td>
               <Td>{item.question1}</Td>
               <Td>{item.question2}</Td>

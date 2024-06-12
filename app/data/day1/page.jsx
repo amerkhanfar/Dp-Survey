@@ -43,7 +43,7 @@ export default function DemoPage() {
       });
       console.log(transformedData);
       const sortedData = transformedData.sort((a, b) =>
-        a.department.localeCompare(b.department),
+        a.region.localeCompare(b.region),
       );
 
       setData(sortedData);

@@ -42,9 +42,14 @@ export default function DemoPage() {
         };
       });
       console.log(transformedData);
-      setData(transformedData);
+      const sortedData = transformedData.sort((a, b) =>
+        a.department.localeCompare(b.department),
+      );
+
+      setData(sortedData);
     } catch (error) {}
   };
+
   useEffect(() => {
     getData();
     // const interval = setInterval(() => {

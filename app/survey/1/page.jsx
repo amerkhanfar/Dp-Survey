@@ -100,6 +100,7 @@ const page = () => {
                 style={{
                   justifyContent: "center",
                   alignSelf: "flex-start",
+                  marginBottom: "100px",
                 }}>
                 <LogoContainer>
                   <LogoSub>
@@ -118,6 +119,7 @@ const page = () => {
                     }}>
                     Dear participants, thank you for participating in our
                     Principles survey.
+                    <br />
                     <br /> Please be honest in your answer as your responses
                     will help us to support you and your team members to
                     leverage our Principles in our day-to-day activities.
@@ -2197,8 +2199,8 @@ const page = () => {
                       width: "70vw",
                     }}>
                     Your participation is greatly appreciated. To discover more
-                    about the behaviors that align with Our Principles. <br />
-                    Kindly click below.
+                    about the behaviors that align with Our Principles, Kindly
+                    click below.
                   </Text>
                 </TextContainer>
                 <div>
@@ -2265,7 +2267,7 @@ const Branding = styled.div`
   width: 20vw;
   height: 30vh;
   background-image: url("/bottomright.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -2277,7 +2279,7 @@ const Branding1 = styled.div`
   width: 20vw;
   height: 30vh;
   background-image: url("/topright.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -2409,8 +2411,8 @@ const NextButton = styled.button`
 
 const Counter = styled.div`
   position: absolute;
-  left: 0;
-  top: 200px;
+  left: 20px;
+  top: 220px;
   color: white;
 `;
 

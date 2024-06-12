@@ -66,21 +66,21 @@ export default function DemoPage() {
           <Th>Region</Th>
           <Th>Department</Th>
           <Th>Level</Th>
-          <Th>Question 1</Th>
-          <Th>Question 2</Th>
-          <Th>Question 3</Th>
-          <Th>Question 4</Th>
-          <Th>Question 5</Th>
-          <Th>Question 6</Th>
-          <Th>Question 7</Th>
-          <Th>Question 8</Th>
-          <Th>Question 9</Th>
-          <Th>Question 10</Th>
-          <Th>Question 11</Th>
-          <Th>Question 12</Th>
-          <Th>Question 13</Th>
-          <Th>Question 14</Th>
-          <Th>Question 15</Th>
+          <Th>Q1.1</Th>
+          <Th>Q1.2</Th>
+          <Th>Q1.3</Th>
+          <Th>Q2.1</Th>
+          <Th>Q2.2</Th>
+          <Th>Q2.3</Th>
+          <Th>Q3.1</Th>
+          <Th>Q3.2</Th>
+          <Th>Q3.3</Th>
+          <Th>Q4.1</Th>
+          <Th>Q4.2</Th>
+          <Th>Q4.3</Th>
+          <Th>Q5.1</Th>
+          <Th>Q5.2</Th>
+          <Th>Q5.3</Th>
         </thead>
         <tbody>
           {data.map((item, index) => (

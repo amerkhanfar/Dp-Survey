@@ -2207,7 +2207,7 @@ const page = () => {
                       width: "70vw",
                     }}>
                     Your participation is greatly appreciated. To discover more
-                    about the behaviors that align with Our Principles, Kindly
+                    about the behaviors that align with Our Principles, kindly
                     click below.
                   </Text>
                 </TextContainer>

@@ -89,6 +89,7 @@ const page = () => {
   return (
     <Container>
       <Branding style={{ zIndex: 1 }} />
+      <Branding1 style={{ zIndex: 1 }} />
       <Branding2 style={{ zIndex: 1 }} />
 
       {(() => {
@@ -258,7 +259,7 @@ const page = () => {
             );
           case 3:
             return (
-              <ColorContainer style={{ backgroundColor: "#e73264" }}>
+              <ColorContainer style={{ backgroundColor: "#27224e" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -283,9 +284,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      PRIORITIZE
-                      <br />
-                      CUSTOMERS
+                      DELIVER <br />
+                      GROWTH
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -369,7 +369,7 @@ const page = () => {
             );
           case 4:
             return (
-              <ColorContainer style={{ backgroundColor: "#e73264" }}>
+              <ColorContainer style={{ backgroundColor: "#27224e" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -394,9 +394,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      PRIORITIZE
-                      <br />
-                      CUSTOMERS
+                      DELIVER <br />
+                      GROWTH
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -482,7 +481,7 @@ const page = () => {
 
           case 5:
             return (
-              <ColorContainer style={{ backgroundColor: "#e73264" }}>
+              <ColorContainer style={{ backgroundColor: "#27224e" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -507,9 +506,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      PRIORITIZE
-                      <br />
-                      CUSTOMERS
+                      DELIVER <br />
+                      GROWTH
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -596,7 +594,7 @@ const page = () => {
 
           case 6:
             return (
-              <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
+              <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -621,7 +619,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      BUILD FOR A<br /> BETTER FUTURE
+                      COLLABORATE <br />
+                      TO WIN
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -705,7 +704,7 @@ const page = () => {
             );
           case 7:
             return (
-              <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
+              <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -730,7 +729,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      BUILD FOR A<br /> BETTER FUTURE
+                      COLLABORATE <br />
+                      TO WIN
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -816,7 +816,7 @@ const page = () => {
 
           case 8:
             return (
-              <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
+              <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -841,7 +841,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      BUILD FOR A<br /> BETTER FUTURE
+                      COLLABORATE <br />
+                      TO WIN
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -1263,7 +1264,7 @@ const page = () => {
 
           case 12:
             return (
-              <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
+              <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -1288,8 +1289,7 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      COLLABORATE <br />
-                      TO WIN
+                      BUILD FOR A <br /> BETTER FUTURE
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -1373,7 +1373,7 @@ const page = () => {
             );
           case 13:
             return (
-              <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
+              <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -1398,8 +1398,7 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      COLLABORATE <br />
-                      TO WIN
+                      BUILD FOR A <br /> BETTER FUTURE
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -1485,7 +1484,7 @@ const page = () => {
 
           case 14:
             return (
-              <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
+              <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -1510,8 +1509,7 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      COLLABORATE <br />
-                      TO WIN
+                      BUILD FOR A <br /> BETTER FUTURE
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -1598,7 +1596,7 @@ const page = () => {
 
           case 15:
             return (
-              <ColorContainer style={{ backgroundColor: "#27224e" }}>
+              <ColorContainer style={{ backgroundColor: " #e73264" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -1623,8 +1621,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      DELIVER <br />
-                      GROWTH
+                      PRIORITIZE <br />
+                      CUSTOMERS
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -1708,7 +1706,7 @@ const page = () => {
             );
           case 16:
             return (
-              <ColorContainer style={{ backgroundColor: "#27224e" }}>
+              <ColorContainer style={{ backgroundColor: " #e73264" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -1733,8 +1731,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      DELIVER <br />
-                      GROWTH
+                      PRIORITIZE <br />
+                      CUSTOMERS
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -1820,7 +1818,7 @@ const page = () => {
 
           case 17:
             return (
-              <ColorContainer style={{ backgroundColor: "#27224e" }}>
+              <ColorContainer style={{ backgroundColor: " #e73264" }}>
                 <Branding style={{ zIndex: 1 }} />
                 <Branding2 style={{ zIndex: 1 }} />
                 <ContentContainer
@@ -1845,8 +1843,8 @@ const page = () => {
                         textAlign: "center",
                         lineHeight: "27px",
                       }}>
-                      DELIVER <br />
-                      GROWTH
+                      PRIORITIZE <br />
+                      CUSTOMERS
                     </h1>
                   </TextContainer>
                   <TextContainer>
@@ -1931,23 +1929,49 @@ const page = () => {
           default:
             return (
               <ContentContainer style={{ justifyContent: "center" }}>
-                {/* <LogoContainer>
+                <LogoContainer>
                   <LogoSub>
                     <img src='/Logo.png' width={140} />
                   </LogoSub>
-                </LogoContainer> */}
+                </LogoContainer>
                 <TextContainer>
-                  <Text
+                  <h1
                     className={PilatWide.className}
                     style={{
                       color: "white",
                       textAlign: "center",
-                      lineHeight: "50px",
-                      fontSize: "50px",
+                      lineHeight: "27px",
                     }}>
-                    Thank You!
+                    THANK YOU
+                  </h1>
+                </TextContainer>
+                <TextContainer>
+                  <Text
+                    className={PilatDemi.className}
+                    style={{
+                      color: "white",
+                      textAlign: "center",
+                      lineHeight: "27px",
+                      fontSize: "20px",
+                      width: "70vw",
+                    }}>
+                    Your participation is greatly appreciated. To discover more
+                    about the behaviors that align with Our Principles. <br />
+                    Kindly click below.
                   </Text>
                 </TextContainer>
+                <div>
+                  <a href='/principels.pdf' target='_blank'>
+                    <NextButton
+                      className={PilatDemi.className}
+                      style={{ marginTop: "20px" }}
+                      onClick={() => {
+                        setStep(step + 1);
+                      }}>
+                      VIEW PDF
+                    </NextButton>
+                  </a>
+                </div>
               </ContentContainer>
             );
         }
@@ -1968,6 +1992,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: 30px;
+  overflow-y: hidden;
 `;
 
 const ColorContainer = styled.div`
@@ -1996,10 +2021,23 @@ const ContentContainer = styled.div`
 `;
 
 const Branding = styled.div`
-  width: 35vw;
-  height: 100vh;
-  background-image: url("/branding.png");
-  background-size: cover;
+  width: 20vw;
+  height: 30vh;
+  background-image: url("/bottomright.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  z-index: 1;
+`;
+
+const Branding1 = styled.div`
+  width: 20vw;
+  height: 30vh;
+  background-image: url("/topright.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   right: 0;
   top: 0;

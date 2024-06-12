@@ -30,7 +30,7 @@ const page = () => {
   const [selectedOption, setSelectedOption] = useState("");
 
   const renderOtherDepartmentInput = () => {
-    if (department === "Others") {
+    if (department === "Other") {
       return (
         <div>
           <Text
@@ -238,7 +238,7 @@ const page = () => {
                         Contract Logistics
                       </option>
                       <option value='Functions'>Functions</option>
-                      <option value='Others'>Others</option>
+                      <option value='Other'>Other</option>
                     </Select>
                   </div>
 

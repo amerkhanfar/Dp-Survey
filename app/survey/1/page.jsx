@@ -30,7 +30,7 @@ const page = () => {
   const [selectedOption, setSelectedOption] = useState("");
 
   const renderOtherDepartmentInput = () => {
-    if (department === "Others (precise)") {
+    if (department === "Others") {
       return (
         <div>
           <Text
@@ -238,7 +238,7 @@ const page = () => {
                         Contract Logistics
                       </option>
                       <option value='Functions'>Functions</option>
-                      <option value='Others (precise)'>Others (precise)</option>
+                      <option value='Others'>Others</option>
                     </Select>
                   </div>
 
@@ -294,13 +294,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -393,7 +386,13 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
+
                       <NextButton
                         disabled={!question1}
                         className={PilatDemi.className}
@@ -403,7 +402,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -423,13 +422,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -523,7 +515,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={!question2}
                         className={PilatDemi.className}
@@ -533,7 +530,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -552,13 +549,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -653,7 +643,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion3Complete}
                         className={PilatDemi.className}
@@ -663,7 +658,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -682,13 +677,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -781,7 +769,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion4Complete}
                         className={PilatDemi.className}
@@ -791,7 +784,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -810,13 +803,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -910,7 +896,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion5Complete}
                         className={PilatDemi.className}
@@ -920,7 +911,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -939,13 +930,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1040,7 +1024,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion6Complete}
                         className={PilatDemi.className}
@@ -1050,7 +1039,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1069,13 +1058,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1168,7 +1150,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion7Complete}
                         className={PilatDemi.className}
@@ -1178,7 +1165,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1197,13 +1184,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1297,7 +1277,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion8Complete}
                         className={PilatDemi.className}
@@ -1307,7 +1292,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1326,13 +1311,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1427,7 +1405,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion9Complete}
                         className={PilatDemi.className}
@@ -1437,7 +1420,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1456,13 +1439,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1554,7 +1530,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion10Complete}
                         className={PilatDemi.className}
@@ -1564,7 +1545,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1583,13 +1564,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1682,7 +1656,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={isQuestion11Complete}
                         className={PilatDemi.className}
@@ -1692,7 +1671,7 @@ const page = () => {
                         }}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1711,13 +1690,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1811,7 +1783,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={!question12}
                         className={PilatDemi.className}
@@ -1819,7 +1796,7 @@ const page = () => {
                         onClick={() => setStep(step + 1)}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1838,13 +1815,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -1937,7 +1907,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={!question13}
                         className={PilatDemi.className}
@@ -1945,7 +1920,7 @@ const page = () => {
                         onClick={() => setStep(step + 1)}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -1964,13 +1939,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -2064,7 +2032,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={!question14}
                         className={PilatDemi.className}
@@ -2072,7 +2045,7 @@ const page = () => {
                         onClick={() => setStep(step + 1)}>
                         NEXT
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -2091,13 +2064,6 @@ const page = () => {
                     height: "60vh",
                     gap: "10px",
                   }}>
-                  <Counter>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white" }}>
-                      {step - 2}/15
-                    </Text>
-                  </Counter>
                   <TextContainer>
                     <h1
                       className={PilatWide.className}
@@ -2192,7 +2158,12 @@ const page = () => {
                       </RadioContainer>
                     </div>
 
-                    <div>
+                    <CounterContainer>
+                      <div
+                        className={PilatDemi.className}
+                        style={{ color: "white" }}>
+                        {step - 2}/15
+                      </div>
                       <NextButton
                         disabled={!question15}
                         className={PilatDemi.className}
@@ -2200,7 +2171,7 @@ const page = () => {
                         onClick={FormSubmit}>
                         Submit
                       </NextButton>
-                    </div>
+                    </CounterContainer>
                   </FormContainer>
                 </ContentContainer>
               </ColorContainer>
@@ -2473,4 +2444,12 @@ const RadioContainer = styled.div`
   display: flex;
   gap: 20px;
   align-items: center;
+`;
+
+const CounterContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-self: "center";
+  align-items: center;
+  margin-top: 20px;
 `;

@@ -146,7 +146,7 @@ const page = () => {
                   <div>
                     <Text
                       className={PilatDemi.className}
-                      style={{ color: "white" }}>
+                      style={{ color: "white", marginLeft: "14px" }}>
                       First Name:
                     </Text>
                     <Input
@@ -161,7 +161,7 @@ const page = () => {
                   <div>
                     <Text
                       className={PilatDemi.className}
-                      style={{ color: "white" }}>
+                      style={{ color: "white", marginLeft: "14px" }}>
                       Last Name:
                     </Text>
                     <Input
@@ -177,7 +177,7 @@ const page = () => {
                   <div>
                     <Text
                       className={PilatDemi.className}
-                      style={{ color: "white" }}>
+                      style={{ color: "white", marginLeft: "14px" }}>
                       Region:
                     </Text>
                     <Select
@@ -199,7 +199,7 @@ const page = () => {
                   <div>
                     <Text
                       className={PilatDemi.className}
-                      style={{ color: "white" }}>
+                      style={{ color: "white", marginLeft: "14px" }}>
                       Departments:
                     </Text>
                     <Select
@@ -217,14 +217,14 @@ const page = () => {
                         Contract Logistics
                       </option>
                       <option value='Functions'>Functions</option>
-                      <option value='Others (precise)'>Others (precise)</option>
+                      <option value='Others (precise)'>Others</option>
                     </Select>
                   </div>
 
                   <div>
                     <Text
                       className={PilatDemi.className}
-                      style={{ color: "white" }}>
+                      style={{ color: "white", marginLeft: "14px" }}>
                       Our Principles Level:
                     </Text>
                     <Select
@@ -309,6 +309,10 @@ const page = () => {
                           type='radio'
                           value='Anticipating customer needs proactively'
                           name='Q1'
+                          checked={
+                            question1 ===
+                            "Anticipating customer needs proactively"
+                          }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -320,6 +324,10 @@ const page = () => {
                           type='radio'
                           value='Gathering comprehensive customer feedback'
                           name='Q1'
+                          checked={
+                            question1 ===
+                            "Gathering comprehensive customer feedback"
+                          }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -331,6 +339,10 @@ const page = () => {
                           type='radio'
                           value='Maintaining consistent communication with key customers'
                           name='Q1'
+                          checked={
+                            question1 ===
+                            "Maintaining consistent communication with key customers"
+                          }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -343,6 +355,10 @@ const page = () => {
                           type='radio'
                           value='Ensuring seamless customer experience through internal coordination'
                           name='Q1'
+                          checked={
+                            question1 ===
+                            "Ensuring seamless customer experience through internal coordination"
+                          }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -354,7 +370,7 @@ const page = () => {
 
                     <div>
                       <NextButton
-                        disabled={isQuestion1Complete}
+                        disabled={!question1}
                         className={PilatDemi.className}
                         style={{ marginTop: "20px" }}
                         onClick={() => {
@@ -367,6 +383,8 @@ const page = () => {
                 </ContentContainer>
               </ColorContainer>
             );
+
+          // Case 4
           case 4:
             return (
               <ColorContainer style={{ backgroundColor: "#27224e" }}>
@@ -419,6 +437,10 @@ const page = () => {
                           type='radio'
                           value='Establishing partnerships with key customers'
                           name='Q2'
+                          checked={
+                            question2 ===
+                            "Establishing partnerships with key customers"
+                          }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -430,6 +452,10 @@ const page = () => {
                           type='radio'
                           value='Identifying new business opportunities based on changing customer needs'
                           name='Q2'
+                          checked={
+                            question2 ===
+                            "Identifying new business opportunities based on changing customer needs"
+                          }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -442,6 +468,10 @@ const page = () => {
                           type='radio'
                           value='Supporting the team to overcome setbacks to ensure customer needs are met'
                           name='Q2'
+                          checked={
+                            question2 ===
+                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                          }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -454,6 +484,10 @@ const page = () => {
                           type='radio'
                           value='Improving metrics used to determine customer satisfaction'
                           name='Q2'
+                          checked={
+                            question2 ===
+                            "Improving metrics used to determine customer satisfaction"
+                          }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -465,7 +499,7 @@ const page = () => {
 
                     <div>
                       <NextButton
-                        disabled={isQuestion2Complete}
+                        disabled={!question2}
                         className={PilatDemi.className}
                         style={{ marginTop: "20px" }}
                         onClick={() => {
@@ -533,6 +567,10 @@ const page = () => {
                           value='Listening to customers and anticipating their needs'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
+                          checked={
+                            question3 ===
+                            "Listening to customers and anticipating their needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Listening to customers and anticipating their needs
@@ -544,6 +582,10 @@ const page = () => {
                           value='Making improvements to business processes to better meet customer needs'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
+                          checked={
+                            question3 ===
+                            "Making improvements to business processes to better meet customer needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Making improvements to business processes to better
@@ -556,6 +598,10 @@ const page = () => {
                           value='Identifying opportunities that result in business growth'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
+                          checked={
+                            question3 ===
+                            "Identifying opportunities that result in business growth"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Identifying opportunities that result in business
@@ -568,6 +614,10 @@ const page = () => {
                           value='Ensuring the team delivers a seamless customer experience'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
+                          checked={
+                            question3 ===
+                            "Ensuring the team delivers a seamless customer experience"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Ensuring the team delivers a seamless customer
@@ -645,6 +695,10 @@ const page = () => {
                           value='Anticipating customer needs proactively'
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
+                          checked={
+                            question4 ===
+                            "Anticipating customer needs proactively"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Anticipating customer needs proactively
@@ -656,6 +710,10 @@ const page = () => {
                           value='Gathering comprehensive customer feedback'
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
+                          checked={
+                            question4 ===
+                            "Gathering comprehensive customer feedback"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Gathering comprehensive customer feedback
@@ -667,6 +725,10 @@ const page = () => {
                           value='Maintaining consistent communication with key customers'
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
+                          checked={
+                            question4 ===
+                            "Maintaining consistent communication with key customers"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Maintaining consistent communication with key
@@ -679,6 +741,10 @@ const page = () => {
                           value='Ensuring seamless customer experience through internal coordination'
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
+                          checked={
+                            question4 ===
+                            "Ensuring seamless customer experience through internal coordination"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Ensuring seamless customer experience through internal
@@ -702,6 +768,7 @@ const page = () => {
                 </ContentContainer>
               </ColorContainer>
             );
+
           case 7:
             return (
               <ColorContainer style={{ backgroundColor: "#e95d0c" }}>
@@ -755,6 +822,10 @@ const page = () => {
                           value='Establishing partnerships with key customers'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
+                          checked={
+                            question5 ===
+                            "Establishing partnerships with key customers"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Establishing partnerships with key customers
@@ -766,6 +837,10 @@ const page = () => {
                           value='Identifying new business opportunities based on changing customer needs'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
+                          checked={
+                            question5 ===
+                            "Identifying new business opportunities based on changing customer needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Identifying new business opportunities based on
@@ -778,6 +853,10 @@ const page = () => {
                           value='Supporting the team to overcome setbacks to ensure customer needs are met'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
+                          checked={
+                            question5 ===
+                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Supporting the team to overcome setbacks to ensure
@@ -790,6 +869,10 @@ const page = () => {
                           value='Improving metrics used to determine customer satisfaction'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
+                          checked={
+                            question5 ===
+                            "Improving metrics used to determine customer satisfaction"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Improving metrics used to determine customer
@@ -868,6 +951,10 @@ const page = () => {
                           value='Listening to customers and anticipating their needs'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
+                          checked={
+                            question6 ===
+                            "Listening to customers and anticipating their needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Listening to customers and anticipating their needs
@@ -879,6 +966,10 @@ const page = () => {
                           value='Making improvements to business processes to better meet customer needs'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
+                          checked={
+                            question6 ===
+                            "Making improvements to business processes to better meet customer needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Making improvements to business processes to better
@@ -891,6 +982,10 @@ const page = () => {
                           value='Identifying opportunities that result in business growth'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
+                          checked={
+                            question6 ===
+                            "Identifying opportunities that result in business growth"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Identifying opportunities that result in business
@@ -903,6 +998,10 @@ const page = () => {
                           value='Ensuring the team delivers a seamless customer experience'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
+                          checked={
+                            question6 ===
+                            "Ensuring the team delivers a seamless customer experience"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Ensuring the team delivers a seamless customer
@@ -980,6 +1079,10 @@ const page = () => {
                           value='Anticipating customer needs proactively'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
+                          checked={
+                            question7 ===
+                            "Anticipating customer needs proactively"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Anticipating customer needs proactively
@@ -991,6 +1094,10 @@ const page = () => {
                           value='Gathering comprehensive customer feedback'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
+                          checked={
+                            question7 ===
+                            "Gathering comprehensive customer feedback"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Gathering comprehensive customer feedback
@@ -1002,6 +1109,10 @@ const page = () => {
                           value='Maintaining consistent communication with key customers'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
+                          checked={
+                            question7 ===
+                            "Maintaining consistent communication with key customers"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Maintaining consistent communication with key
@@ -1014,6 +1125,10 @@ const page = () => {
                           value='Ensuring seamless customer experience through internal coordination'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
+                          checked={
+                            question7 ===
+                            "Ensuring seamless customer experience through internal coordination"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Ensuring seamless customer experience through internal
@@ -1037,6 +1152,7 @@ const page = () => {
                 </ContentContainer>
               </ColorContainer>
             );
+
           case 10:
             return (
               <ColorContainer style={{ backgroundColor: "#384595" }}>
@@ -1090,6 +1206,10 @@ const page = () => {
                           value='Establishing partnerships with key customers'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
+                          checked={
+                            question8 ===
+                            "Establishing partnerships with key customers"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Establishing partnerships with key customers
@@ -1101,6 +1221,10 @@ const page = () => {
                           value='Identifying new business opportunities based on changing customer needs'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
+                          checked={
+                            question8 ===
+                            "Identifying new business opportunities based on changing customer needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Identifying new business opportunities based on
@@ -1113,6 +1237,10 @@ const page = () => {
                           value='Supporting the team to overcome setbacks to ensure customer needs are met'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
+                          checked={
+                            question8 ===
+                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Supporting the team to overcome setbacks to ensure
@@ -1125,6 +1253,10 @@ const page = () => {
                           value='Improving metrics used to determine customer satisfaction'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
+                          checked={
+                            question8 ===
+                            "Improving metrics used to determine customer satisfaction"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Improving metrics used to determine customer
@@ -1203,6 +1335,10 @@ const page = () => {
                           value='Listening to customers and anticipating their needs'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
+                          checked={
+                            question9 ===
+                            "Listening to customers and anticipating their needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Listening to customers and anticipating their needs
@@ -1214,6 +1350,10 @@ const page = () => {
                           value='Making improvements to business processes to better meet customer needs'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
+                          checked={
+                            question9 ===
+                            "Making improvements to business processes to better meet customer needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Making improvements to business processes to better
@@ -1226,6 +1366,10 @@ const page = () => {
                           value='Identifying opportunities that result in business growth'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
+                          checked={
+                            question9 ===
+                            "Identifying opportunities that result in business growth"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Identifying opportunities that result in business
@@ -1238,6 +1382,10 @@ const page = () => {
                           value='Ensuring the team delivers a seamless customer experience'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
+                          checked={
+                            question9 ===
+                            "Ensuring the team delivers a seamless customer experience"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Ensuring the team delivers a seamless customer
@@ -1314,6 +1462,10 @@ const page = () => {
                           value='Anticipating customer needs proactively'
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
+                          checked={
+                            question10 ===
+                            "Anticipating customer needs proactively"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Anticipating customer needs proactively
@@ -1325,6 +1477,10 @@ const page = () => {
                           value='Gathering comprehensive customer feedback'
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
+                          checked={
+                            question10 ===
+                            "Gathering comprehensive customer feedback"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Gathering comprehensive customer feedback
@@ -1336,6 +1492,10 @@ const page = () => {
                           value='Maintaining consistent communication with key customers'
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
+                          checked={
+                            question10 ===
+                            "Maintaining consistent communication with key customers"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Maintaining consistent communication with key
@@ -1348,6 +1508,10 @@ const page = () => {
                           value='Ensuring seamless customer experience through internal coordination'
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
+                          checked={
+                            question10 ===
+                            "Ensuring seamless customer experience through internal coordination"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Ensuring seamless customer experience through internal
@@ -1371,6 +1535,7 @@ const page = () => {
                 </ContentContainer>
               </ColorContainer>
             );
+
           case 13:
             return (
               <ColorContainer style={{ backgroundColor: "#5fb87e" }}>
@@ -1423,6 +1588,10 @@ const page = () => {
                           value='Establishing partnerships with key customers'
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
+                          checked={
+                            question11 ===
+                            "Establishing partnerships with key customers"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Establishing partnerships with key customers
@@ -1434,6 +1603,10 @@ const page = () => {
                           value='Identifying new business opportunities based on changing customer needs'
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
+                          checked={
+                            question11 ===
+                            "Identifying new business opportunities based on changing customer needs"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Identifying new business opportunities based on
@@ -1446,6 +1619,10 @@ const page = () => {
                           value='Supporting the team to overcome setbacks to ensure customer needs are met'
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
+                          checked={
+                            question11 ===
+                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Supporting the team to overcome setbacks to ensure
@@ -1458,6 +1635,10 @@ const page = () => {
                           value='Improving metrics used to determine customer satisfaction'
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
+                          checked={
+                            question11 ===
+                            "Improving metrics used to determine customer satisfaction"
+                          }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
                           Improving metrics used to determine customer
@@ -1534,6 +1715,10 @@ const page = () => {
                           type='radio'
                           value='Listening to customers and anticipating their needs'
                           name='Q12'
+                          checked={
+                            question12 ===
+                            "Listening to customers and anticipating their needs"
+                          }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1545,6 +1730,10 @@ const page = () => {
                           type='radio'
                           value='Making improvements to business processes to better meet customer needs'
                           name='Q12'
+                          checked={
+                            question12 ===
+                            "Making improvements to business processes to better meet customer needs"
+                          }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1557,6 +1746,10 @@ const page = () => {
                           type='radio'
                           value='Identifying opportunities that result in business growth'
                           name='Q12'
+                          checked={
+                            question12 ===
+                            "Identifying opportunities that result in business growth"
+                          }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1569,6 +1762,10 @@ const page = () => {
                           type='radio'
                           value='Ensuring the team delivers a seamless customer experience'
                           name='Q12'
+                          checked={
+                            question12 ===
+                            "Ensuring the team delivers a seamless customer experience"
+                          }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1580,12 +1777,10 @@ const page = () => {
 
                     <div>
                       <NextButton
-                        disabled={isQuestion12Complete}
+                        disabled={!question12}
                         className={PilatDemi.className}
                         style={{ marginTop: "20px" }}
-                        onClick={() => {
-                          setStep(step + 1);
-                        }}>
+                        onClick={() => setStep(step + 1)}>
                         NEXT
                       </NextButton>
                     </div>
@@ -1646,6 +1841,10 @@ const page = () => {
                           type='radio'
                           value='Anticipating customer needs proactively'
                           name='Q13'
+                          checked={
+                            question13 ===
+                            "Anticipating customer needs proactively"
+                          }
                           onChange={(e) => setQuestion13(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1657,6 +1856,10 @@ const page = () => {
                           type='radio'
                           value='Gathering comprehensive customer feedback'
                           name='Q13'
+                          checked={
+                            question13 ===
+                            "Gathering comprehensive customer feedback"
+                          }
                           onChange={(e) => setQuestion13(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1668,6 +1871,10 @@ const page = () => {
                           type='radio'
                           value='Maintaining consistent communication with key customers'
                           name='Q13'
+                          checked={
+                            question13 ===
+                            "Maintaining consistent communication with key customers"
+                          }
                           onChange={(e) => setQuestion13(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1680,6 +1887,10 @@ const page = () => {
                           type='radio'
                           value='Ensuring seamless customer experience through internal coordination'
                           name='Q13'
+                          checked={
+                            question13 ===
+                            "Ensuring seamless customer experience through internal coordination"
+                          }
                           onChange={(e) => setQuestion13(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1691,12 +1902,10 @@ const page = () => {
 
                     <div>
                       <NextButton
-                        disabled={isQuestion13Complete}
+                        disabled={!question13}
                         className={PilatDemi.className}
                         style={{ marginTop: "20px" }}
-                        onClick={() => {
-                          setStep(step + 1);
-                        }}>
+                        onClick={() => setStep(step + 1)}>
                         NEXT
                       </NextButton>
                     </div>
@@ -1704,6 +1913,7 @@ const page = () => {
                 </ContentContainer>
               </ColorContainer>
             );
+
           case 16:
             return (
               <ColorContainer style={{ backgroundColor: " #e73264" }}>
@@ -1756,6 +1966,10 @@ const page = () => {
                           type='radio'
                           value='Establishing partnerships with key customers'
                           name='Q14'
+                          checked={
+                            question14 ===
+                            "Establishing partnerships with key customers"
+                          }
                           onChange={(e) => setQuestion14(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1767,6 +1981,10 @@ const page = () => {
                           type='radio'
                           value='Identifying new business opportunities based on changing customer needs'
                           name='Q14'
+                          checked={
+                            question14 ===
+                            "Identifying new business opportunities based on changing customer needs"
+                          }
                           onChange={(e) => setQuestion14(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1779,6 +1997,10 @@ const page = () => {
                           type='radio'
                           value='Supporting the team to overcome setbacks to ensure customer needs are met'
                           name='Q14'
+                          checked={
+                            question14 ===
+                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                          }
                           onChange={(e) => setQuestion14(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1791,6 +2013,10 @@ const page = () => {
                           type='radio'
                           value='Improving metrics used to determine customer satisfaction'
                           name='Q14'
+                          checked={
+                            question14 ===
+                            "Improving metrics used to determine customer satisfaction"
+                          }
                           onChange={(e) => setQuestion14(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1802,12 +2028,10 @@ const page = () => {
 
                     <div>
                       <NextButton
-                        disabled={isQuestion14Complete}
+                        disabled={!question14}
                         className={PilatDemi.className}
                         style={{ marginTop: "20px" }}
-                        onClick={() => {
-                          setStep(step + 1);
-                        }}>
+                        onClick={() => setStep(step + 1)}>
                         NEXT
                       </NextButton>
                     </div>
@@ -1869,6 +2093,10 @@ const page = () => {
                           type='radio'
                           value='Listening to customers and anticipating their needs'
                           name='Q15'
+                          checked={
+                            question15 ===
+                            "Listening to customers and anticipating their needs"
+                          }
                           onChange={(e) => setQuestion15(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1880,6 +2108,10 @@ const page = () => {
                           type='radio'
                           value='Making improvements to business processes to better meet customer needs'
                           name='Q15'
+                          checked={
+                            question15 ===
+                            "Making improvements to business processes to better meet customer needs"
+                          }
                           onChange={(e) => setQuestion15(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1892,6 +2124,10 @@ const page = () => {
                           type='radio'
                           value='Identifying opportunities that result in business growth'
                           name='Q15'
+                          checked={
+                            question15 ===
+                            "Identifying opportunities that result in business growth"
+                          }
                           onChange={(e) => setQuestion15(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1904,6 +2140,10 @@ const page = () => {
                           type='radio'
                           value='Ensuring the team delivers a seamless customer experience'
                           name='Q15'
+                          checked={
+                            question15 ===
+                            "Ensuring the team delivers a seamless customer experience"
+                          }
                           onChange={(e) => setQuestion15(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
@@ -1915,7 +2155,7 @@ const page = () => {
 
                     <div>
                       <NextButton
-                        disabled={isQuestion15Complete}
+                        disabled={!question15}
                         className={PilatDemi.className}
                         style={{ marginTop: "20px" }}
                         onClick={FormSubmit}>
@@ -1926,6 +2166,7 @@ const page = () => {
                 </ContentContainer>
               </ColorContainer>
             );
+
           default:
             return (
               <ContentContainer style={{ justifyContent: "center" }}>
@@ -2095,7 +2336,7 @@ const TextContainer = styled.div`
 const Text = styled.div`
   width: 75vw;
   text-align: left;
-  margin-left: 14px;
+  /* margin-left: 14px; */
 `;
 
 const Input = styled.input`

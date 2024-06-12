@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
+import { PilatDemi, PilatLight, PilatWide } from "../../../fonts/fonts";
 
 export default function DemoPage() {
   const [data, setData] = useState([]);
@@ -52,6 +53,11 @@ export default function DemoPage() {
   }, []);
   return (
     <Continer>
+      <DayContainer>
+        <h1 className={PilatWide.className} style={{ fontSize: "50px" }}>
+          DAY 1
+        </h1>
+      </DayContainer>
       <Table style={{ border: "1px solid black", borderCollapse: "collapse" }}>
         <thead>
           <Th>#</Th>
@@ -116,10 +122,21 @@ const Continer = styled.div`
   min-height: 100vh;
   font-size: 11px;
   background-color: #27224e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   @media (max-width: 500px) {
     width: 100vw;
   }
+`;
+
+const DayContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 60px;
 `;
 
 const Table = styled.table`

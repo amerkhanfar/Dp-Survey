@@ -327,63 +327,65 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Anticipating customer needs proactively'
+                          value='Making appropriate trade-offs between immediate financial opportunities and long-term benefits'
                           name='Q1'
                           checked={
                             question1 ===
-                            "Anticipating customer needs proactively"
+                            "Making appropriate trade-offs between immediate financial opportunities and long-term benefits"
                           }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Anticipating customer needs proactively
+                          Making appropriate trade-offs between immediate
+                          financial opportunities and long-term benefits
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Gathering comprehensive customer feedback'
+                          value='Investing in research to support strategic decision-making'
                           name='Q1'
                           checked={
                             question1 ===
-                            "Gathering comprehensive customer feedback"
+                            "Investing in research to support strategic decision-making"
                           }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Gathering comprehensive customer feedback
+                          Investing in research to support strategic
+                          decision-making
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Maintaining consistent communication with key customers'
+                          value='Using financial data to identify opportunities for value creation and improved profitability'
                           name='Q1'
                           checked={
                             question1 ===
-                            "Maintaining consistent communication with key customers"
+                            "Using financial data to identify opportunities for value creation and improved profitability"
                           }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Maintaining consistent communication with key
-                          customers
+                          Using financial data to identify opportunities for
+                          value creation and improved profitability
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring seamless customer experience through internal coordination'
+                          value='Helping others recover momentum and confidence after failures or setbacks'
                           name='Q1'
                           checked={
                             question1 ===
-                            "Ensuring seamless customer experience through internal coordination"
+                            "Helping others recover momentum and confidence after failures or setbacks"
                           }
                           onChange={(e) => setQuestion1(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring seamless customer experience through internal
-                          coordination
+                          Helping others recover momentum and confidence after
+                          failures or setbacks
                         </Label>
                       </RadioContainer>
                     </div>
@@ -455,64 +457,62 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Establishing partnerships with key customers'
+                          value='Monitoring financial data and trends'
                           name='Q2'
                           checked={
-                            question2 ===
-                            "Establishing partnerships with key customers"
+                            question2 === "Monitoring financial data and trends"
                           }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Establishing partnerships with key customers
+                          Monitoring financial data and trends
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying new business opportunities based on changing customer needs'
+                          value='Role modeling the importance of personal wellbeing'
                           name='Q2'
                           checked={
                             question2 ===
-                            "Identifying new business opportunities based on changing customer needs"
+                            "Role modeling the importance of personal wellbeing"
                           }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying new business opportunities based on
-                          changing customer needs
+                          Role modeling the importance of personal wellbeing
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Supporting the team to overcome setbacks to ensure customer needs are met'
+                          value='Creating an environment where people are supported and recognized in implementing new initiatives'
                           name='Q2'
                           checked={
                             question2 ===
-                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                            "Creating an environment where people are supported and recognized in implementing new initiatives"
                           }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Supporting the team to overcome setbacks to ensure
-                          customer needs are met
+                          Creating an environment where people are supported and
+                          recognized in implementing new initiatives
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Improving metrics used to determine customer satisfaction'
+                          value='Investing in research to support strategic decision-making'
                           name='Q2'
                           checked={
                             question2 ===
-                            "Improving metrics used to determine customer satisfaction"
+                            "Investing in research to support strategic decision-making"
                           }
                           onChange={(e) => setQuestion2(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Improving metrics used to determine customer
-                          satisfaction
+                          Investing in research to support strategic
+                          decision-making
                         </Label>
                       </RadioContainer>
                     </div>
@@ -583,64 +583,65 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Listening to customers and anticipating their needs'
+                          value='Making appropriate trade-offs between immediate financial opportunities and long-term benefits'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
                           checked={
                             question3 ===
-                            "Listening to customers and anticipating their needs"
+                            "Making appropriate trade-offs between immediate financial opportunities and long-term benefits"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Listening to customers and anticipating their needs
+                          Making appropriate trade-offs between immediate
+                          financial opportunities and long-term benefits
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Making improvements to business processes to better meet customer needs'
+                          value='Using financial data to identify opportunities for value creation and improved profitability'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
                           checked={
                             question3 ===
-                            "Making improvements to business processes to better meet customer needs"
+                            "Using financial data to identify opportunities for value creation and improved profitability"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Making improvements to business processes to better
-                          meet customer needs
+                          Using financial data to identify opportunities for
+                          value creation and improved profitability
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying opportunities that result in business growth'
+                          value='Investing in research to support strategic decision-making'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
                           checked={
                             question3 ===
-                            "Identifying opportunities that result in business growth"
+                            "Investing in research to support strategic decision-making"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying opportunities that result in business
-                          growth
+                          Investing in research to support strategic
+                          decision-making
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring the team delivers a seamless customer experience'
+                          value='Creating an environment where people are supported and recognized in implementing new initiatives'
                           name='Q3'
                           onChange={(e) => setQuestion3(e.target.value)}
                           checked={
                             question3 ===
-                            "Ensuring the team delivers a seamless customer experience"
+                            "Creating an environment where people are supported and recognized in implementing new initiatives"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring the team delivers a seamless customer
-                          experience
+                          Creating an environment where people are supported and
+                          recognized in implementing new initiatives
                         </Label>
                       </RadioContainer>
                     </div>
@@ -710,63 +711,65 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Anticipating customer needs proactively'
+                          value='Facilitating effective collaboration among different teams and/or external partners'
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
                           checked={
                             question4 ===
-                            "Anticipating customer needs proactively"
+                            "Facilitating effective collaboration among different teams and/or external partners"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Anticipating customer needs proactively
+                          Facilitating effective collaboration among different
+                          teams and/or external partners
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Gathering comprehensive customer feedback'
+                          value='Actively collaborating with others to manage change within the organization'
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
                           checked={
                             question4 ===
-                            "Gathering comprehensive customer feedback"
+                            "Actively collaborating with others to manage change within the organization"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Gathering comprehensive customer feedback
+                          Actively collaborating with others to manage change
+                          within the organization
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Maintaining consistent communication with key customers'
+                          value="Organizing team-building activities that consider people's skills, interests, and experiences"
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
                           checked={
                             question4 ===
-                            "Maintaining consistent communication with key customers"
+                            "Organizing team-building activities that consider people's skills, interests, and experiences"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Maintaining consistent communication with key
-                          customers
+                          Organizing team-building activities that consider
+                          people's skills, interests, and experiences
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring seamless customer experience through internal coordination'
+                          value='Creating a safe space where everyone can bring ideas and opinions'
                           name='Q4'
                           onChange={(e) => setQuestion4(e.target.value)}
                           checked={
                             question4 ===
-                            "Ensuring seamless customer experience through internal coordination"
+                            "Creating a safe space where everyone can bring ideas and opinions"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring seamless customer experience through internal
-                          coordination
+                          Creating a safe space where everyone can bring ideas
+                          and opinions
                         </Label>
                       </RadioContainer>
                     </div>
@@ -836,64 +839,65 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Establishing partnerships with key customers'
+                          value='Creating a safe space where everyone can bring ideas and opinions'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
                           checked={
                             question5 ===
-                            "Establishing partnerships with key customers"
+                            "Creating a safe space where everyone can bring ideas and opinions"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Establishing partnerships with key customers
+                          Creating a safe space where everyone can bring ideas
+                          and opinions
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying new business opportunities based on changing customer needs'
+                          value='Encouraging others to seek out diverse perspectives and cross-functional problem-solving'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
                           checked={
                             question5 ===
-                            "Identifying new business opportunities based on changing customer needs"
+                            "Encouraging others to seek out diverse perspectives and cross-functional problem-solving"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying new business opportunities based on
-                          changing customer needs
+                          Encouraging others to seek out diverse perspectives
+                          and cross-functional problem-solving
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Supporting the team to overcome setbacks to ensure customer needs are met'
+                          value='Effectively balancing focusing on people and focusing on tasks'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
                           checked={
                             question5 ===
-                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                            "Effectively balancing focusing on people and focusing on tasks"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Supporting the team to overcome setbacks to ensure
-                          customer needs are met
+                          Effectively balancing focusing on people and focusing
+                          on tasks
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Improving metrics used to determine customer satisfaction'
+                          value='Challenging individuals and processes to ensure an inclusive work environment'
                           name='Q5'
                           onChange={(e) => setQuestion5(e.target.value)}
                           checked={
                             question5 ===
-                            "Improving metrics used to determine customer satisfaction"
+                            "Challenging individuals and processes to ensure an inclusive work environment"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Improving metrics used to determine customer
-                          satisfaction
+                          Challenging individuals and processes to ensure an
+                          inclusive work environment
                         </Label>
                       </RadioContainer>
                     </div>
@@ -964,64 +968,64 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Listening to customers and anticipating their needs'
+                          value='Driving higher performance through collaboration'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
                           checked={
                             question6 ===
-                            "Listening to customers and anticipating their needs"
+                            "Driving higher performance through collaboration"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Listening to customers and anticipating their needs
+                          Driving higher performance through collaboration
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Making improvements to business processes to better meet customer needs'
+                          value='Encouraging others to seek out diverse perspectives and cross-functional problem-solving'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
                           checked={
                             question6 ===
-                            "Making improvements to business processes to better meet customer needs"
+                            "Encouraging others to seek out diverse perspectives and cross-functional problem-solving"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Making improvements to business processes to better
-                          meet customer needs
+                          Encouraging others to seek out diverse perspectives
+                          and cross-functional problem-solving
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying opportunities that result in business growth'
+                          value='Building an inclusive environment of trust and empowerment'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
                           checked={
                             question6 ===
-                            "Identifying opportunities that result in business growth"
+                            "Building an inclusive environment of trust and empowerment"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying opportunities that result in business
-                          growth
+                          Building an inclusive environment of trust and
+                          empowerment
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring the team delivers a seamless customer experience'
+                          value='Actively collaborating with others to manage change within the organization'
                           name='Q6'
                           onChange={(e) => setQuestion6(e.target.value)}
                           checked={
                             question6 ===
-                            "Ensuring the team delivers a seamless customer experience"
+                            "Actively collaborating with others to manage change within the organization"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring the team delivers a seamless customer
-                          experience
+                          Actively collaborating with others to manage change
+                          within the organization
                         </Label>
                       </RadioContainer>
                     </div>
@@ -1091,63 +1095,65 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Anticipating customer needs proactively'
+                          value='Taking calculated risks to try new approaches, even if they are untested or unconventional'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
                           checked={
                             question7 ===
-                            "Anticipating customer needs proactively"
+                            "Taking calculated risks to try new approaches, even if they are untested or unconventional"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Anticipating customer needs proactively
+                          Taking calculated risks to try new approaches, even if
+                          they are untested or unconventional
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Gathering comprehensive customer feedback'
+                          value='Actively seeking out information on industry innovations'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
                           checked={
                             question7 ===
-                            "Gathering comprehensive customer feedback"
+                            "Actively seeking out information on industry innovations"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Gathering comprehensive customer feedback
+                          Actively seeking out information on industry
+                          innovations
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Maintaining consistent communication with key customers'
+                          value='Building and nurturing partnerships to support innovation'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
                           checked={
                             question7 ===
-                            "Maintaining consistent communication with key customers"
+                            "Building and nurturing partnerships to support innovation"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Maintaining consistent communication with key
-                          customers
+                          Building and nurturing partnerships to support
+                          innovation
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring seamless customer experience through internal coordination'
+                          value='Encouraging others to adopt an agile, curious mindset and approach'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
                           checked={
                             question7 ===
-                            "Ensuring seamless customer experience through internal coordination"
+                            "Encouraging others to adopt an agile, curious mindset and approach"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring seamless customer experience through internal
-                          coordination
+                          Encouraging others to adopt an agile, curious mindset
+                          and approach
                         </Label>
                       </RadioContainer>
                     </div>
@@ -1217,64 +1223,66 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Establishing partnerships with key customers'
+                          value='Encouraging a culture of equity and inclusiveness that allows the team to share improvements and innovations'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
                           checked={
                             question8 ===
-                            "Establishing partnerships with key customers"
+                            "Encouraging a culture of equity and inclusiveness that allows the team to share improvements and innovations"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Establishing partnerships with key customers
+                          Encouraging a culture of equity and inclusiveness that
+                          allows the team to share improvements and innovations
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying new business opportunities based on changing customer needs'
+                          value='Staying curious, being present, and constantly developing'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
                           checked={
                             question8 ===
-                            "Identifying new business opportunities based on changing customer needs"
+                            "Staying curious, being present, and constantly developing"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying new business opportunities based on
-                          changing customer needs
+                          Staying curious, being present, and constantly
+                          developing
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Supporting the team to overcome setbacks to ensure customer needs are met'
+                          value='Remaining adaptable by continuously developing interpersonal, communication, creative thinking, and problem-solving skills'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
                           checked={
                             question8 ===
-                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                            "Remaining adaptable by continuously developing interpersonal, communication, creative thinking, and problem-solving skills"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Supporting the team to overcome setbacks to ensure
-                          customer needs are met
+                          Remaining adaptable by continuously developing
+                          interpersonal, communication, creative thinking, and
+                          problem-solving skills
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Improving metrics used to determine customer satisfaction'
+                          value='Actively seeking out information on industry innovations'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
                           checked={
                             question8 ===
-                            "Improving metrics used to determine customer satisfaction"
+                            "Actively seeking out information on industry innovations"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Improving metrics used to determine customer
-                          satisfaction
+                          Actively seeking out information on industry
+                          innovations
                         </Label>
                       </RadioContainer>
                     </div>
@@ -1345,64 +1353,66 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Listening to customers and anticipating their needs'
+                          value='Building and nurturing partnerships to support innovation'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
                           checked={
                             question9 ===
-                            "Listening to customers and anticipating their needs"
+                            "Building and nurturing partnerships to support innovation"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Listening to customers and anticipating their needs
+                          Building and nurturing partnerships to support
+                          innovation
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Making improvements to business processes to better meet customer needs'
+                          value='Encouraging others to adopt an agile, curious mindset and approach'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
                           checked={
                             question9 ===
-                            "Making improvements to business processes to better meet customer needs"
+                            "Encouraging others to adopt an agile, curious mindset and approach"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Making improvements to business processes to better
-                          meet customer needs
+                          Encouraging others to adopt an agile, curious mindset
+                          and approach
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying opportunities that result in business growth'
+                          value='Remaining adaptable by continuously developing interpersonal, communication, creative thinking, and problem-solving skills'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
                           checked={
                             question9 ===
-                            "Identifying opportunities that result in business growth"
+                            "Remaining adaptable by continuously developing interpersonal, communication, creative thinking, and problem-solving skills"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying opportunities that result in business
-                          growth
+                          Remaining adaptable by continuously developing
+                          interpersonal, communication, creative thinking, and
+                          problem-solving skills
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring the team delivers a seamless customer experience'
+                          value='Actively seeking out information on industry innovations'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
                           checked={
                             question9 ===
-                            "Ensuring the team delivers a seamless customer experience"
+                            "Actively seeking out information on industry innovations"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring the team delivers a seamless customer
-                          experience
+                          Actively seeking out information on industry
+                          innovations
                         </Label>
                       </RadioContainer>
                     </div>
@@ -1471,63 +1481,66 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Anticipating customer needs proactively'
+                          value='Providing opportunities for professional development, such as mentoring programs, training and development workshops, and job rotations'
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
                           checked={
                             question10 ===
-                            "Anticipating customer needs proactively"
+                            "Providing opportunities for professional development, such as mentoring programs, training and development workshops, and job rotations"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Anticipating customer needs proactively
+                          Providing opportunities for professional development,
+                          such as mentoring programs, training and development
+                          workshops, and job rotations
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Gathering comprehensive customer feedback'
+                          value="Creating a sense of pride and ownership in the organization's success and continuous improvement"
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
                           checked={
                             question10 ===
-                            "Gathering comprehensive customer feedback"
+                            "Creating a sense of pride and ownership in the organization's success and continuous improvement"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Gathering comprehensive customer feedback
+                          Creating a sense of pride and ownership in the
+                          organization's success and continuous improvement
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Maintaining consistent communication with key customers'
+                          value='Building and telling stories of impact of partnerships on collective well-being'
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
                           checked={
                             question10 ===
-                            "Maintaining consistent communication with key customers"
+                            "Building and telling stories of impact of partnerships on collective well-being"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Maintaining consistent communication with key
-                          customers
+                          Building and telling stories of impact of partnerships
+                          on collective well-being
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring seamless customer experience through internal coordination'
+                          value='Supporting and engaging in local, regional, and global partnerships'
                           name='Q10'
                           onChange={(e) => setQuestion10(e.target.value)}
                           checked={
                             question10 ===
-                            "Ensuring seamless customer experience through internal coordination"
+                            "Supporting and engaging in local, regional, and global partnerships"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring seamless customer experience through internal
-                          coordination
+                          Supporting and engaging in local, regional, and global
+                          partnerships
                         </Label>
                       </RadioContainer>
                     </div>
@@ -1596,64 +1609,66 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Establishing partnerships with key customers'
+                          value="Creating a sense of pride and ownership in the organization's success and continuous improvement"
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
                           checked={
                             question11 ===
-                            "Establishing partnerships with key customers"
+                            "Creating a sense of pride and ownership in the organization's success and continuous improvement"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Establishing partnerships with key customers
+                          Creating a sense of pride and ownership in the
+                          organization's success and continuous improvement
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying new business opportunities based on changing customer needs'
+                          value='Setting clear Health, Safety, and Sustainability goals for self and teams'
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
                           checked={
                             question11 ===
-                            "Identifying new business opportunities based on changing customer needs"
+                            "Setting clear Health, Safety, and Sustainability goals for self and teams"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying new business opportunities based on
-                          changing customer needs
+                          Setting clear Health, Safety, and Sustainability goals
+                          for self and teams
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Supporting the team to overcome setbacks to ensure customer needs are met'
+                          value='Supporting and engaging in local, regional, and global partnerships'
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
                           checked={
                             question11 ===
-                            "Supporting the team to overcome setbacks to ensure customer needs are met"
+                            "Supporting and engaging in local, regional, and global partnerships"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Supporting the team to overcome setbacks to ensure
-                          customer needs are met
+                          Supporting and engaging in local, regional, and global
+                          partnerships
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Improving metrics used to determine customer satisfaction'
+                          value='Using management by walking around to engage employees active participation in creating a safety culture (i.e., Gemba Walks)'
                           name='Q11'
                           onChange={(e) => setQuestion11(e.target.value)}
                           checked={
                             question11 ===
-                            "Improving metrics used to determine customer satisfaction"
+                            "Using management by walking around to engage employees active participation in creating a safety culture (i.e., Gemba Walks)"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Improving metrics used to determine customer
-                          satisfaction
+                          Using management by walking around to engage employees
+                          active participation in creating a safety culture
+                          (i.e., Gemba Walks)
                         </Label>
                       </RadioContainer>
                     </div>
@@ -1723,64 +1738,66 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Listening to customers and anticipating their needs'
+                          value='Driving Health, Safety, and Sustainability mindset and behaviors in their teams'
                           name='Q12'
                           checked={
                             question12 ===
-                            "Listening to customers and anticipating their needs"
+                            "Driving Health, Safety, and Sustainability mindset and behaviors in their teams"
                           }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Listening to customers and anticipating their needs
+                          Driving Health, Safety, and Sustainability mindset and
+                          behaviors in their teams
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Making improvements to business processes to better meet customer needs'
+                          value='Setting clear Health, Safety, and Sustainability goals for self and teams'
                           name='Q12'
                           checked={
                             question12 ===
-                            "Making improvements to business processes to better meet customer needs"
+                            "Setting clear Health, Safety, and Sustainability goals for self and teams"
                           }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Making improvements to business processes to better
-                          meet customer needs
+                          Setting clear Health, Safety, and Sustainability goals
+                          for self and teams
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Identifying opportunities that result in business growth'
+                          value='Providing opportunities for professional development, such as mentoring programs, training and development workshops, and job rotations'
                           name='Q12'
                           checked={
                             question12 ===
-                            "Identifying opportunities that result in business growth"
+                            "Providing opportunities for professional development, such as mentoring programs, training and development workshops, and job rotations"
                           }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Identifying opportunities that result in business
-                          growth
+                          Providing opportunities for professional development,
+                          such as mentoring programs, training and development
+                          workshops, and job rotations
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Ensuring the team delivers a seamless customer experience'
+                          value='Recognizing and rewarding individuals for their achievements and contributions'
                           name='Q12'
                           checked={
                             question12 ===
-                            "Ensuring the team delivers a seamless customer experience"
+                            "Recognizing and rewarding individuals for their achievements and contributions"
                           }
                           onChange={(e) => setQuestion12(e.target.value)}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Ensuring the team delivers a seamless customer
-                          experience
+                          Recognizing and rewarding individuals for their
+                          achievements and contributions
                         </Label>
                       </RadioContainer>
                     </div>

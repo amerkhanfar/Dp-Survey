@@ -1095,6 +1095,38 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
+                          value='Staying curious, being present, and constantly developing'
+                          name='Q7'
+                          onChange={(e) => setQuestion7(e.target.value)}
+                          checked={
+                            question7 ===
+                            "Staying curious, being present, and constantly developing"
+                          }
+                        />
+                        <Label className={PilatDemi.className} htmlFor=''>
+                          Staying curious, being present, and constantly
+                          developing
+                        </Label>
+                      </RadioContainer>
+                      <RadioContainer>
+                        <RadioInput
+                          type='radio'
+                          value='Encouraging a culture of equity and inclusiveness that allows the team to share improvements and innovations'
+                          name='Q7'
+                          onChange={(e) => setQuestion7(e.target.value)}
+                          checked={
+                            question7 ===
+                            "Encouraging a culture of equity and inclusiveness that allows the team to share improvements and innovations"
+                          }
+                        />
+                        <Label className={PilatDemi.className} htmlFor=''>
+                          Encouraging a culture of equity and inclusiveness that
+                          allows the team to share improvements and innovations
+                        </Label>
+                      </RadioContainer>
+                      <RadioContainer>
+                        <RadioInput
+                          type='radio'
                           value='Taking calculated risks to try new approaches, even if they are untested or unconventional'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
@@ -1111,22 +1143,6 @@ const page = () => {
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Actively seeking out information on industry innovations'
-                          name='Q7'
-                          onChange={(e) => setQuestion7(e.target.value)}
-                          checked={
-                            question7 ===
-                            "Actively seeking out information on industry innovations"
-                          }
-                        />
-                        <Label className={PilatDemi.className} htmlFor=''>
-                          Actively seeking out information on industry
-                          innovations
-                        </Label>
-                      </RadioContainer>
-                      <RadioContainer>
-                        <RadioInput
-                          type='radio'
                           value='Building and nurturing partnerships to support innovation'
                           name='Q7'
                           onChange={(e) => setQuestion7(e.target.value)}
@@ -1138,22 +1154,6 @@ const page = () => {
                         <Label className={PilatDemi.className} htmlFor=''>
                           Building and nurturing partnerships to support
                           innovation
-                        </Label>
-                      </RadioContainer>
-                      <RadioContainer>
-                        <RadioInput
-                          type='radio'
-                          value='Encouraging others to adopt an agile, curious mindset and approach'
-                          name='Q7'
-                          onChange={(e) => setQuestion7(e.target.value)}
-                          checked={
-                            question7 ===
-                            "Encouraging others to adopt an agile, curious mindset and approach"
-                          }
-                        />
-                        <Label className={PilatDemi.className} htmlFor=''>
-                          Encouraging others to adopt an agile, curious mindset
-                          and approach
                         </Label>
                       </RadioContainer>
                     </div>
@@ -1223,33 +1223,28 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
-                          value='Encouraging a culture of equity and inclusiveness that allows the team to share improvements and innovations'
+                          value='Challenging the status quo'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
-                          checked={
-                            question8 ===
-                            "Encouraging a culture of equity and inclusiveness that allows the team to share improvements and innovations"
-                          }
+                          checked={question8 === "Challenging the status quo"}
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Encouraging a culture of equity and inclusiveness that
-                          allows the team to share improvements and innovations
+                          Challenging the status quo
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Staying curious, being present, and constantly developing'
+                          value='Helping others to be present and more resilient'
                           name='Q8'
                           onChange={(e) => setQuestion8(e.target.value)}
                           checked={
                             question8 ===
-                            "Staying curious, being present, and constantly developing"
+                            "Helping others to be present and more resilient"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Staying curious, being present, and constantly
-                          developing
+                          Helping others to be present and more resilient
                         </Label>
                       </RadioContainer>
                       <RadioContainer>
@@ -1353,6 +1348,38 @@ const page = () => {
                       <RadioContainer style={{ alignSelf: "flex-start" }}>
                         <RadioInput
                           type='radio'
+                          value='Taking calculated risks to try new approaches, even if they are untested or unconventional'
+                          name='Q9'
+                          onChange={(e) => setQuestion9(e.target.value)}
+                          checked={
+                            question9 ===
+                            "Taking calculated risks to try new approaches, even if they are untested or unconventional"
+                          }
+                        />
+                        <Label className={PilatDemi.className} htmlFor=''>
+                          Taking calculated risks to try new approaches, even if
+                          they are untested or unconventional
+                        </Label>
+                      </RadioContainer>
+                      <RadioContainer>
+                        <RadioInput
+                          type='radio'
+                          value='Staying curious, being present, and constantly developing'
+                          name='Q9'
+                          onChange={(e) => setQuestion9(e.target.value)}
+                          checked={
+                            question9 ===
+                            "Staying curious, being present, and constantly developing"
+                          }
+                        />
+                        <Label className={PilatDemi.className} htmlFor=''>
+                          Staying curious, being present, and constantly
+                          developing
+                        </Label>
+                      </RadioContainer>
+                      <RadioContainer>
+                        <RadioInput
+                          type='radio'
                           value='Building and nurturing partnerships to support innovation'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
@@ -1369,50 +1396,16 @@ const page = () => {
                       <RadioContainer>
                         <RadioInput
                           type='radio'
-                          value='Encouraging others to adopt an agile, curious mindset and approach'
+                          value='Encouraging personal development in the team'
                           name='Q9'
                           onChange={(e) => setQuestion9(e.target.value)}
                           checked={
                             question9 ===
-                            "Encouraging others to adopt an agile, curious mindset and approach"
+                            "Encouraging personal development in the team"
                           }
                         />
                         <Label className={PilatDemi.className} htmlFor=''>
-                          Encouraging others to adopt an agile, curious mindset
-                          and approach
-                        </Label>
-                      </RadioContainer>
-                      <RadioContainer>
-                        <RadioInput
-                          type='radio'
-                          value='Remaining adaptable by continuously developing interpersonal, communication, creative thinking, and problem-solving skills'
-                          name='Q9'
-                          onChange={(e) => setQuestion9(e.target.value)}
-                          checked={
-                            question9 ===
-                            "Remaining adaptable by continuously developing interpersonal, communication, creative thinking, and problem-solving skills"
-                          }
-                        />
-                        <Label className={PilatDemi.className} htmlFor=''>
-                          Remaining adaptable by continuously developing
-                          interpersonal, communication, creative thinking, and
-                          problem-solving skills
-                        </Label>
-                      </RadioContainer>
-                      <RadioContainer>
-                        <RadioInput
-                          type='radio'
-                          value='Actively seeking out information on industry innovations'
-                          name='Q9'
-                          onChange={(e) => setQuestion9(e.target.value)}
-                          checked={
-                            question9 ===
-                            "Actively seeking out information on industry innovations"
-                          }
-                        />
-                        <Label className={PilatDemi.className} htmlFor=''>
-                          Actively seeking out information on industry
-                          innovations
+                          Encouraging personal development in the team
                         </Label>
                       </RadioContainer>
                     </div>
@@ -2445,7 +2438,7 @@ const Counter = styled.div`
 
 const Label = styled.label`
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 20px;
 `;
 

@@ -2445,7 +2445,7 @@ const Counter = styled.div`
 
 const Label = styled.label`
   color: white;
-  font-size: 18px;
+  font-size: 13px;
   margin-top: 20px;
 `;
 

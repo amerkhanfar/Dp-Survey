@@ -142,7 +142,7 @@ const page = () => {
                       fontSize: "20px",
                       marginLeft: "0px",
                     }}>
-                    Dear participants, thank you for participating in our
+                    Dear participants, thank you for participating in Our
                     Principles survey.
                     <br />
                     <br /> Please be honest in your responses as they will help

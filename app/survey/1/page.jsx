@@ -145,9 +145,9 @@ const page = () => {
                     Dear participants, thank you for participating in our
                     Principles survey.
                     <br />
-                    <br /> Please be honest in your answer as your responses
-                    will help us to support you and your team members to
-                    leverage our Principles in our day-to-day activities.
+                    <br /> Please be honest in your responses as they will help
+                    us support you and your team members in leveraging these
+                    Principles in our day-to-day activities.
                   </Text>
                 </TextContainer>
                 <div>
@@ -212,7 +212,7 @@ const page = () => {
                       <option value='AMR'>AMR</option>
                       <option value='EUROPE'>EUROPE</option>
                       <option value='Region 3'>SCO-MENA</option>
-                      <option value='CHO'>CHO</option>
+                      <option value='GLOBAL'>GLOBAL</option>
                       <option value='GCC'>GCC</option>
                       <option value='APAC'>APAC</option>
                       <option value='SSA'>SSA</option>

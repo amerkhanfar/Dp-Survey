@@ -1536,7 +1536,7 @@ const page = () => {
                   <a href='/principels.pdf' target='_blank'>
                     <Button
                       className={PilatDemi.className}
-                      style={{ width: "50vw" }}
+                      style={{ width: "50vw", padding: "10px" }}
                       onClick={() => {
                         setStep(step + 1);
                       }}>

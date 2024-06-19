@@ -34,11 +34,6 @@ export default function DemoPage() {
           question8: item.question8,
           question9: item.question9,
           question10: item.question10,
-          question11: item.question11,
-          question12: item.question12,
-          question13: item.question13,
-          question14: item.question14,
-          question15: item.question15,
         };
       });
       console.log(transformedData);
@@ -75,19 +70,18 @@ export default function DemoPage() {
           <Th>Level</Th>
           <Th>Q1.1</Th>
           <Th>Q1.2</Th>
-          <Th>Q1.3</Th>
+
           <Th>Q2.1</Th>
           <Th>Q2.2</Th>
-          <Th>Q2.3</Th>
+
           <Th>Q3.1</Th>
           <Th>Q3.2</Th>
-          <Th>Q3.3</Th>
+
           <Th>Q4.1</Th>
           <Th>Q4.2</Th>
-          <Th>Q4.3</Th>
+
           <Th>Q5.1</Th>
           <Th>Q5.2</Th>
-          <Th>Q5.3</Th>
         </thead>
         <tbody>
           {data.map((item, index) => (
@@ -111,11 +105,6 @@ export default function DemoPage() {
               <Td>{item.question8}</Td>
               <Td>{item.question9}</Td>
               <Td>{item.question10}</Td>
-              <Td>{item.question11}</Td>
-              <Td>{item.question12}</Td>
-              <Td>{item.question13}</Td>
-              <Td>{item.question14}</Td>
-              <Td>{item.question15}</Td>
             </tr>
           ))}
         </tbody>

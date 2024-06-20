@@ -30,11 +30,9 @@ const page = () => {
     if (department === "Other") {
       return (
         <div>
-          <Text
-            className={PilatDemi.className}
-            style={{ color: "white", marginLeft: "14px" }}>
+          <DataText className={PilatDemi.className}>
             Please specify Other Department:
-          </Text>
+          </DataText>
           <Input
             type='text'
             value={otherDepartment}
@@ -1765,6 +1763,10 @@ const Label = styled.label`
   color: white;
   font-size: 16px;
   margin-top: 20px;
+
+  @media (min-width: 750px) {
+    font-size: 22px;
+  }
 `;
 
 const RadioInput = styled.input`

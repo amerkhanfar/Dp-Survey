@@ -196,12 +196,15 @@ const page = () => {
                       </option>
                       <option value='AMR'>AMR</option>
                       <option value='Central Asia'>Central Asia</option>
-                      <option value='AMR'>AMR</option>
+                      <option value='Europe'>Europe</option>
                       <option value='SCO-MENA'>SCO-MENA</option>
                       <option value='GLOBAL'>GLOBAL</option>
                       <option value='GCC'>GCC</option>
                       <option value='APAC'>APAC</option>
                       <option value='SSA'>SSA</option>
+                      <option value='Corporate Head Office'>
+                        Corporate Head Office
+                      </option>
                     </Select>
                   </div>
 

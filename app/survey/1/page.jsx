@@ -61,7 +61,7 @@ const page = () => {
           region,
           department,
           otherDepartment,
-          level,
+
           question1,
           question2,
           question3,
@@ -82,8 +82,7 @@ const page = () => {
     }
   }
 
-  const isFormIncomplete =
-    !firstName || !lastName || !region || !department || !level;
+  const isFormIncomplete = !firstName || !lastName || !region || !department;
   const isQuestion1Complete = !question1;
   const isQuestion2Complete = !question2;
   const isQuestion3Complete = !question3;
@@ -225,7 +224,7 @@ const page = () => {
 
                   {renderOtherDepartmentInput()}
 
-                  <div>
+                  {/* <div>
                     <DataText className={PilatDemi.className}>
                       Our Principles Level:
                     </DataText>
@@ -244,7 +243,7 @@ const page = () => {
                       <option value='Senior Leaders'>Senior Leaders</option>
                       <option value='Executives'>Executives</option>
                     </Select>
-                  </div>
+                  </div> */}
 
                   <div>
                     <Button

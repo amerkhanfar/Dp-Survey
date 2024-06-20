@@ -67,7 +67,7 @@ export default function DemoPage() {
           <Th>Region</Th>
           <Th>Department</Th>
           <Th>Other Department</Th>
-          <Th>Level</Th>
+
           <Th>Q1.1</Th>
           <Th>Q1.2</Th>
 
@@ -94,7 +94,6 @@ export default function DemoPage() {
               <Td>{item.department}</Td>
               <Td>{item.other}</Td>
 
-              <Td>{item.level}</Td>
               <Td>{item.question1}</Td>
               <Td>{item.question2}</Td>
               <Td>{item.question3}</Td>

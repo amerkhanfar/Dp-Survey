@@ -22,7 +22,7 @@ export default function DemoPage() {
           lastName: item.lastName,
           department: item.department,
           region: item.region,
-          level: item.level,
+
           other: item.otherDepartment,
           question1: item.question1,
           question2: item.question2,
@@ -67,7 +67,7 @@ export default function DemoPage() {
           <Th>Region</Th>
           <Th>Department</Th>
           <Th>Other Department</Th>
-          <Th>Level</Th>
+
           <Th>Q1.1</Th>
           <Th>Q1.2</Th>
 

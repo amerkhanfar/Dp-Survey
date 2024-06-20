@@ -156,11 +156,9 @@ const page = () => {
                 </LogoContainer>
                 <FormContainer>
                   <div>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white", marginLeft: "14px" }}>
+                    <DataText className={PilatDemi.className}>
                       First Name:
-                    </Text>
+                    </DataText>
                     <Input
                       type='text'
                       value={firstName}
@@ -169,11 +167,9 @@ const page = () => {
                     />
                   </div>
                   <div>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white", marginLeft: "14px" }}>
+                    <DataText className={PilatDemi.className}>
                       Last Name:
-                    </Text>
+                    </DataText>
                     <Input
                       type='text'
                       value={lastName}
@@ -183,11 +179,7 @@ const page = () => {
                   </div>
 
                   <div>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white", marginLeft: "14px" }}>
-                      Region:
-                    </Text>
+                    <DataText className={PilatDemi.className}>Region:</DataText>
                     <Select
                       value={region}
                       onChange={(e) => setRegion(e.target.value)}>
@@ -209,11 +201,9 @@ const page = () => {
                   </div>
 
                   <div>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white", marginLeft: "14px" }}>
+                    <DataText className={PilatDemi.className}>
                       Departments:
-                    </Text>
+                    </DataText>
                     <Select
                       value={department}
                       onChange={(e) => setDepartment(e.target.value)}>
@@ -238,11 +228,9 @@ const page = () => {
                   {renderOtherDepartmentInput()}
 
                   <div>
-                    <Text
-                      className={PilatDemi.className}
-                      style={{ color: "white", marginLeft: "14px" }}>
+                    <DataText className={PilatDemi.className}>
                       Our Principles Level:
-                    </Text>
+                    </DataText>
                     <Select
                       value={level}
                       onChange={(e) => setLevel(e.target.value)}>
@@ -1686,6 +1674,16 @@ const Text = styled.div`
   width: 75vw;
   text-align: left;
   /* margin-left: 14px; */
+`;
+
+const DataText = styled.div`
+  width: 75vw;
+  text-align: left;
+  margin-left: 14px;
+  color: white;
+  @media (min-width: 750px) {
+    margin-left: 32px;
+  }
 `;
 
 const Input = styled.input`

@@ -1617,6 +1617,10 @@ const Branding1 = styled.div`
   right: 0;
   top: 0;
   z-index: 1;
+
+  @media (min-width: 1000px) {
+    width: 9vw;
+  }
 `;
 
 const Branding2 = styled.div`
@@ -1680,6 +1684,10 @@ const DataText = styled.div`
   color: white;
   @media (min-width: 750px) {
     margin-left: 32px;
+  }
+
+  @media (min-width: 1000px) {
+    margin-left: 40px;
   }
 `;
 

@@ -54,7 +54,7 @@ const page = () => {
 
     try {
       await axios.post(
-        "https://sdg-signture-default-rtdb.firebaseio.com/Day3.json",
+        "https://sdg-signture-default-rtdb.firebaseio.com/Day4.json",
         {
           firstName,
           lastName,
